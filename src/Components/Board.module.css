@@ -1,0 +1,55 @@
+.Board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: rgb(32, 32, 32);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.731);
+  color:#00DBDE;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+
+.board_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 0px;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+
+button {
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #090909;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+ul > li {
+  color:#00DBDE;
+}
+
